@@ -1,0 +1,105 @@
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FFA500;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 5px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  .form{
+    padding-top: 130px; 
+    padding-left:  40px;
+  }
+body{
+  font-family: "times new";
+  background: url(hostel_management.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#backImg {
+  background-color: #d3d3d3	;
+
+}
+
+.icons {
+   display: grid;
+  position: absolute;
+  top: 140px;
+  left: 35px;
+  width: 200px;
+  height: 100px;
+}
+
+.details {
+  position: absolute;
+  top: 155px;
+  left: 200px;
+}
+
+.butt {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 16px;
+  background-color:rgb(46, 125, 230);
+  border-radius: 12px;
+
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  bottom: 23px;
+  width: 180px;
+}
+
+
+
+.popup{
+  
+  display: grid ; 
+  background-color: #555;
+  opacity: 1;
+  border-style: inset;
+  border-radius: 5px;
+  height: 550px;
+  width: 500px;
+  
+  position: absolute;
+  top: 30px;
+  left: 600px;
+
+}

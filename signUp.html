@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Sign Up
+        </title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+        <form class="form" action="registration.php" method="POST">
+            <h1>Registration</h1>
+            <p>Please fill in your details.</p>
+            
+            <label for="Name" style="padding:10px;">Name:</label>
+            <input type="text" placeholder="Enter Name" name="name" required>
+            <br><br>
+
+
+            <label for="Sex" style="padding:10px;">Sex:</label>
+            <select  name="sex" >
+                <option value="m" >Male</option>
+                <option value="f" >Female</option>
+                <option value="n">Not binary</option>
+            </select>
+
+            <label for="Semester" ><br><br>Semester:</label>
+            <input type="text" placeholder="Semester" name="sem"required>
+            <br><br>
+            <label for="Hostel Name" style="padding:10px;" >Hostel Name:</label>
+            <select name="hostelName" >
+                <option value="Amritam" >Solan</option>
+                <option value="Kailasam" >Shimla</option>
+                <option value="Shivam">Baddi</option>
+            </select>
+
+            <label for="password" name="password"><br><br>Password:</label>
+            <input type="password" placeholder="Password" name="password"required>
+
+
+            <br><br>
+            <button class ="button button2"type="submit"><span>Register</span></button>
+           
+        </form>
+    <body>
+        
+    </body>
+</html>
